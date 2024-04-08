@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa_01\\Projeto_WEB_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C0815012-6C64-41C3-91CB-575CC0310D6F}|Projeto_WEB_2\\Projeto_WEB_2.csproj|c:\\users\\joaov\\desktop\\p\u00F3s\\programa\u00E7\u00E3o web ii\\tarefa_01\\projeto_web_2\\projeto_web_2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0815012-6C64-41C3-91CB-575CC0310D6F}|Projeto_WEB_2\\Projeto_WEB_2.csproj|solutionrelative:projeto_web_2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0815012-6C64-41C3-91CB-575CC0310D6F}|Projeto_WEB_2\\Projeto_WEB_2.csproj|c:\\users\\joaov\\desktop\\p\u00F3s\\programa\u00E7\u00E3o web ii\\tarefa_01\\projeto_web_2\\projeto_web_2\\wwwroot\\lib\\jquery\\dist\\jquery.validade.pt-br.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C0815012-6C64-41C3-91CB-575CC0310D6F}|Projeto_WEB_2\\Projeto_WEB_2.csproj|solutionrelative:projeto_web_2\\wwwroot\\lib\\jquery\\dist\\jquery.validade.pt-br.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0815012-6C64-41C3-91CB-575CC0310D6F}|Projeto_WEB_2\\Projeto_WEB_2.csproj|c:\\users\\joaov\\desktop\\p\u00F3s\\programa\u00E7\u00E3o web ii\\tarefa_01\\projeto_web_2\\projeto_web_2\\controllers\\tbpacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0815012-6C64-41C3-91CB-575CC0310D6F}|Projeto_WEB_2\\Projeto_WEB_2.csproj|solutionrelative:projeto_web_2\\controllers\\tbpacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0815012-6C64-41C3-91CB-575CC0310D6F}|Projeto_WEB_2\\Projeto_WEB_2.csproj|c:\\users\\joaov\\desktop\\p\u00F3s\\programa\u00E7\u00E3o web ii\\tarefa_01\\projeto_web_2\\projeto_web_2\\views\\tbpacientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0815012-6C64-41C3-91CB-575CC0310D6F}|Projeto_WEB_2\\Projeto_WEB_2.csproj|solutionrelative:projeto_web_2\\views\\tbpacientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa_01\\Projeto_WEB_2\\Projeto_WEB_2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Projeto_WEB_2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa_01\\Projeto_WEB_2\\Projeto_WEB_2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Projeto_WEB_2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-08T14:40:20.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "jquery.validade.pt-br.js",
+              "DocumentMoniker": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa_01\\Projeto_WEB_2\\Projeto_WEB_2\\wwwroot\\lib\\jquery\\dist\\jquery.validade.pt-br.js",
+              "RelativeDocumentMoniker": "Projeto_WEB_2\\wwwroot\\lib\\jquery\\dist\\jquery.validade.pt-br.js",
+              "ToolTip": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa_01\\Projeto_WEB_2\\Projeto_WEB_2\\wwwroot\\lib\\jquery\\dist\\jquery.validade.pt-br.js",
+              "RelativeToolTip": "Projeto_WEB_2\\wwwroot\\lib\\jquery\\dist\\jquery.validade.pt-br.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-08T14:38:43.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa_01\\Projeto_WEB_2\\Projeto_WEB_2\\Views\\TbPacientes\\Create.cshtml",
+              "RelativeDocumentMoniker": "Projeto_WEB_2\\Views\\TbPacientes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa_01\\Projeto_WEB_2\\Projeto_WEB_2\\Views\\TbPacientes\\Create.cshtml",
+              "RelativeToolTip": "Projeto_WEB_2\\Views\\TbPacientes\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-08T13:33:29.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TbPacientesController.cs",
+              "DocumentMoniker": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa_01\\Projeto_WEB_2\\Projeto_WEB_2\\Controllers\\TbPacientesController.cs",
+              "RelativeDocumentMoniker": "Projeto_WEB_2\\Controllers\\TbPacientesController.cs",
+              "ToolTip": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa_01\\Projeto_WEB_2\\Projeto_WEB_2\\Controllers\\TbPacientesController.cs",
+              "RelativeToolTip": "Projeto_WEB_2\\Controllers\\TbPacientesController.cs",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAwwJkAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T13:29:39.389Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
