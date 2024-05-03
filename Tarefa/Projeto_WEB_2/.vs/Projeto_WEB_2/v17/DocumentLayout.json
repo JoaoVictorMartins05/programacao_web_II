@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa_01\\Projeto_WEB_2\\",
+  "WorkspaceRootPath": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa\\Projeto_WEB_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0815012-6C64-41C3-91CB-575CC0310D6F}|Projeto_WEB_2\\Projeto_WEB_2.csproj|c:\\users\\joaov\\desktop\\p\u00F3s\\programa\u00E7\u00E3o web ii\\tarefa_01\\projeto_web_2\\projeto_web_2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C0815012-6C64-41C3-91CB-575CC0310D6F}|Projeto_WEB_2\\Projeto_WEB_2.csproj|solutionrelative:projeto_web_2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C0815012-6C64-41C3-91CB-575CC0310D6F}|Projeto_WEB_2\\Projeto_WEB_2.csproj|c:\\users\\joaov\\desktop\\p\u00F3s\\programa\u00E7\u00E3o web ii\\tarefa\\projeto_web_2\\projeto_web_2\\views\\tbprofissionals\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0815012-6C64-41C3-91CB-575CC0310D6F}|Projeto_WEB_2\\Projeto_WEB_2.csproj|solutionrelative:projeto_web_2\\views\\tbprofissionals\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0815012-6C64-41C3-91CB-575CC0310D6F}|Projeto_WEB_2\\Projeto_WEB_2.csproj|c:\\users\\joaov\\desktop\\p\u00F3s\\programa\u00E7\u00E3o web ii\\tarefa_01\\projeto_web_2\\projeto_web_2\\wwwroot\\lib\\jquery\\dist\\jquery.validade.pt-br.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{C0815012-6C64-41C3-91CB-575CC0310D6F}|Projeto_WEB_2\\Projeto_WEB_2.csproj|solutionrelative:projeto_web_2\\wwwroot\\lib\\jquery\\dist\\jquery.validade.pt-br.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{C0815012-6C64-41C3-91CB-575CC0310D6F}|Projeto_WEB_2\\Projeto_WEB_2.csproj|c:\\users\\joaov\\desktop\\p\u00F3s\\programa\u00E7\u00E3o web ii\\tarefa\\projeto_web_2\\projeto_web_2\\views\\tbprofissionals\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0815012-6C64-41C3-91CB-575CC0310D6F}|Projeto_WEB_2\\Projeto_WEB_2.csproj|solutionrelative:projeto_web_2\\views\\tbprofissionals\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0815012-6C64-41C3-91CB-575CC0310D6F}|Projeto_WEB_2\\Projeto_WEB_2.csproj|c:\\users\\joaov\\desktop\\p\u00F3s\\programa\u00E7\u00E3o web ii\\tarefa_01\\projeto_web_2\\projeto_web_2\\controllers\\tbpacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0815012-6C64-41C3-91CB-575CC0310D6F}|Projeto_WEB_2\\Projeto_WEB_2.csproj|solutionrelative:projeto_web_2\\controllers\\tbpacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0815012-6C64-41C3-91CB-575CC0310D6F}|Projeto_WEB_2\\Projeto_WEB_2.csproj|c:\\users\\joaov\\desktop\\p\u00F3s\\programa\u00E7\u00E3o web ii\\tarefa\\projeto_web_2\\projeto_web_2\\controllers\\tbprofissionalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0815012-6C64-41C3-91CB-575CC0310D6F}|Projeto_WEB_2\\Projeto_WEB_2.csproj|solutionrelative:projeto_web_2\\controllers\\tbprofissionalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0815012-6C64-41C3-91CB-575CC0310D6F}|Projeto_WEB_2\\Projeto_WEB_2.csproj|c:\\users\\joaov\\desktop\\p\u00F3s\\programa\u00E7\u00E3o web ii\\tarefa_01\\projeto_web_2\\projeto_web_2\\views\\tbpacientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C0815012-6C64-41C3-91CB-575CC0310D6F}|Projeto_WEB_2\\Projeto_WEB_2.csproj|solutionrelative:projeto_web_2\\views\\tbpacientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C0815012-6C64-41C3-91CB-575CC0310D6F}|Projeto_WEB_2\\Projeto_WEB_2.csproj|c:\\users\\joaov\\desktop\\p\u00F3s\\programa\u00E7\u00E3o web ii\\tarefa\\projeto_web_2\\projeto_web_2\\views\\tbprofissionals\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0815012-6C64-41C3-91CB-575CC0310D6F}|Projeto_WEB_2\\Projeto_WEB_2.csproj|solutionrelative:projeto_web_2\\views\\tbprofissionals\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,59 +25,59 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 396,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa_01\\Projeto_WEB_2\\Projeto_WEB_2\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Projeto_WEB_2\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa_01\\Projeto_WEB_2\\Projeto_WEB_2\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Projeto_WEB_2\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACUAAAAnAAAA",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa\\Projeto_WEB_2\\Projeto_WEB_2\\Views\\TbProfissionals\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Projeto_WEB_2\\Views\\TbProfissionals\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa\\Projeto_WEB_2\\Projeto_WEB_2\\Views\\TbProfissionals\\Edit.cshtml",
+              "RelativeToolTip": "Projeto_WEB_2\\Views\\TbProfissionals\\Edit.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAC8AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-08T14:40:20.661Z",
+              "WhenOpened": "2024-05-03T03:20:35.422Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "jquery.validade.pt-br.js",
-              "DocumentMoniker": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa_01\\Projeto_WEB_2\\Projeto_WEB_2\\wwwroot\\lib\\jquery\\dist\\jquery.validade.pt-br.js",
-              "RelativeDocumentMoniker": "Projeto_WEB_2\\wwwroot\\lib\\jquery\\dist\\jquery.validade.pt-br.js",
-              "ToolTip": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa_01\\Projeto_WEB_2\\Projeto_WEB_2\\wwwroot\\lib\\jquery\\dist\\jquery.validade.pt-br.js",
-              "RelativeToolTip": "Projeto_WEB_2\\wwwroot\\lib\\jquery\\dist\\jquery.validade.pt-br.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-04-08T14:38:43.491Z",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa\\Projeto_WEB_2\\Projeto_WEB_2\\Views\\TbProfissionals\\Index.cshtml",
+              "RelativeDocumentMoniker": "Projeto_WEB_2\\Views\\TbProfissionals\\Index.cshtml",
+              "ToolTip": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa\\Projeto_WEB_2\\Projeto_WEB_2\\Views\\TbProfissionals\\Index.cshtml",
+              "RelativeToolTip": "Projeto_WEB_2\\Views\\TbProfissionals\\Index.cshtml",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAgwGgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-03T02:04:41.916Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa_01\\Projeto_WEB_2\\Projeto_WEB_2\\Views\\TbPacientes\\Create.cshtml",
-              "RelativeDocumentMoniker": "Projeto_WEB_2\\Views\\TbPacientes\\Create.cshtml",
-              "ToolTip": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa_01\\Projeto_WEB_2\\Projeto_WEB_2\\Views\\TbPacientes\\Create.cshtml",
-              "RelativeToolTip": "Projeto_WEB_2\\Views\\TbPacientes\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAmAAAA",
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa\\Projeto_WEB_2\\Projeto_WEB_2\\Views\\TbProfissionals\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Projeto_WEB_2\\Views\\TbProfissionals\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa\\Projeto_WEB_2\\Projeto_WEB_2\\Views\\TbProfissionals\\Delete.cshtml",
+              "RelativeToolTip": "Projeto_WEB_2\\Views\\TbProfissionals\\Delete.cshtml",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-08T13:33:29.095Z",
+              "WhenOpened": "2024-05-03T02:03:08.75Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TbPacientesController.cs",
-              "DocumentMoniker": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa_01\\Projeto_WEB_2\\Projeto_WEB_2\\Controllers\\TbPacientesController.cs",
-              "RelativeDocumentMoniker": "Projeto_WEB_2\\Controllers\\TbPacientesController.cs",
-              "ToolTip": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa_01\\Projeto_WEB_2\\Projeto_WEB_2\\Controllers\\TbPacientesController.cs",
-              "RelativeToolTip": "Projeto_WEB_2\\Controllers\\TbPacientesController.cs",
-              "ViewState": "AQIAAIMAAAAAAAAAAAAwwJkAAAA+AAAA",
+              "Title": "TbProfissionalsController.cs",
+              "DocumentMoniker": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa\\Projeto_WEB_2\\Projeto_WEB_2\\Controllers\\TbProfissionalsController.cs",
+              "RelativeDocumentMoniker": "Projeto_WEB_2\\Controllers\\TbProfissionalsController.cs",
+              "ToolTip": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa\\Projeto_WEB_2\\Projeto_WEB_2\\Controllers\\TbProfissionalsController.cs",
+              "RelativeToolTip": "Projeto_WEB_2\\Controllers\\TbProfissionalsController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAYwCYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T13:29:39.389Z",
+              "WhenOpened": "2024-05-03T01:07:21.463Z",
               "EditorCaption": ""
             }
           ]

@@ -29,10 +29,10 @@
                 @Html.DisplayFor(modelItem => item.Nome)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IdEstadoNavigation.IdEstado)
+                @Html.DisplayFor(modelItem => item.IdEstadoNavigation.Nome)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.IdCidade">Edit</a> |
+                <a asp-action="Edit" asp-route-id="@item.IdCidade" >Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.IdCidade">Details</a> |
                 <a asp-action="Delete" asp-route-id="@item.IdCidade">Delete</a>
             </td>

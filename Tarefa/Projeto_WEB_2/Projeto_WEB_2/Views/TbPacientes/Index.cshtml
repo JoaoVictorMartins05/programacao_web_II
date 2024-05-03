@@ -113,12 +113,12 @@
                 @Html.DisplayFor(modelItem => item.FlgGestante)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IdCidadeNavigation.IdCidade)
+                @Html.DisplayFor(modelItem => item.IdCidadeNavigation.Nome)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.IdPaciente">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IdPaciente">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdPaciente">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.IdPaciente" class="btn btn-primary">Editar</a> 
+                <a asp-action="Details" asp-route-id="@item.IdPaciente" class="btn btn-primary">Detalhes</a> 
+                <a asp-action="Delete" asp-route-id="@item.IdPaciente" class="btn btn-primary">Excluir</a>
             </td>
         </tr>
 }

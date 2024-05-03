@@ -17,12 +17,16 @@ public partial class TbProfissional
     [Key]
     public int IdProfissional { get; set; }
 
+    [Display(Name = "Área de Atuação")]
     public int? IdTipoProfissional { get; set; }
-
+    
+    [Display(Name = "Tipo Contrato")]
     public int IdContrato { get; set; }
-
+    
+    [Display(Name = "Acesso")]
     public int? IdTipoAcesso { get; set; }
-
+    
+    [Display(Name = "Cidade")]
     public int IdCidade { get; set; }
 
     [Required]
@@ -69,14 +73,6 @@ public partial class TbProfissional
     [Unicode(false)]
     public string Cep { get; set; }
 
-    [StringLength(100)]
-    [Unicode(false)]
-    public string Cidade { get; set; }
-
-    [StringLength(2)]
-    [Unicode(false)]
-    public string Estado { get; set; }
-
     [Column("DDD1")]
     [StringLength(2)]
     [Unicode(false)]
@@ -100,6 +96,7 @@ public partial class TbProfissional
 
     [ForeignKey("IdCidade")]
     [InverseProperty("TbProfissional")]
+    [Display(Name = "Cidade")]
     public virtual TbCidade IdCidadeNavigation { get; set; }
 
     [ForeignKey("IdContrato")]
@@ -108,6 +105,7 @@ public partial class TbProfissional
 
     [ForeignKey("IdTipoAcesso")]
     [InverseProperty("TbProfissional")]
+    [Display(Name = "Tipo Acesso")]
     public virtual TbTipoAcesso IdTipoAcessoNavigation { get; set; }
 
     [InverseProperty("IdProfissionalNavigation")]

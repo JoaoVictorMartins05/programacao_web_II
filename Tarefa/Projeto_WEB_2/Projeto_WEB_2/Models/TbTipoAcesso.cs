@@ -12,6 +12,7 @@ namespace Projeto_WEB_2.Models;
 public partial class TbTipoAcesso
 {
     [Key]
+    [Display(Name = "Acesso")]
     public int IdTipoAcesso { get; set; }
 
     [Required]
