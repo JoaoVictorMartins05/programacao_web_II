@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -9,6 +11,7 @@ using Projeto_WEB_2.Models;
 
 namespace Projeto_WEB_2.Controllers
 {
+    [Authorize(Roles = "Medico,Nutricionista")]
     public class TbPacientesController : Controller
     {
         private readonly db_IF_WEB_IIContext _context;
@@ -21,8 +24,19 @@ namespace Projeto_WEB_2.Controllers
         // GET: TbPacientes
         public async Task<IActionResult> Index()
         {
-            var db_IF_WEB_IIContext = _context.TbPaciente.Include(t => t.IdCidadeNavigation);
-            return View(await db_IF_WEB_IIContext.ToListAsync());
+            if (User.IsInRole("Medico") || User.IsInRole("Nutricionista"))
+            {
+                string? userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+                var db_IF_WEB_IIContext = _context.TbPaciente
+                    .Include(t => t.IdCidadeNavigation)
+                    .Include(t => t.TbMedicoPaciente)
+                    .ThenInclude(s => s.IdProfissionalNavigation)
+                    .Where(t => t.TbMedicoPaciente.Any(mp => mp.IdProfissionalNavigation.IdUser == userId));
+                return View(await db_IF_WEB_IIContext.ToListAsync());
+                
+            }
+            return View(null);
         }
 
         // GET: TbPacientes/Details/5
@@ -48,13 +62,11 @@ namespace Projeto_WEB_2.Controllers
         // GET: TbPacientes/Create
         public IActionResult Create()
         {
-            ViewData["IdCidade"] = new SelectList(_context.TbCidade, "IdCidade", "IdCidade");
+            ViewData["IdCidade"] = new SelectList(_context.TbCidade, "IdCidade", "Nome");
             return View();
         }
 
         // POST: TbPacientes/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Nome,Rg,Cpf,DataNascimento,NomeResponsavel,Sexo,Etnia,Endereco,Bairro,IdCidade,TelResidencial,TelComercial,TelCelular,Profissao,FlgAtleta,FlgGestante")] TbPaciente tbPaciente)
@@ -63,8 +75,28 @@ namespace Projeto_WEB_2.Controllers
             {
                 if (ModelState.IsValid)
                 {
+                    string? userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+
                     _context.Add(tbPaciente);
                     await _context.SaveChangesAsync();
+
+                    // Crie uma instância de TbMedicoPaciente e defina os valores
+                    TbMedicoPaciente tbMedicoPaciente = new TbMedicoPaciente
+                    {
+                        IdPaciente = tbPaciente.IdPaciente, // Use o Id do paciente recém-criado
+                        IdProfissional = GetProfissionalId(userId), // Defina o Id do profissional usando sua lógica atual
+                        InformacaoResumida = "Informações resumidas aqui" // Defina as informações resumidas conforme necessário
+                    };
+
+                    // Adicione a instância de TbMedicoPaciente ao contexto
+                    _context.Add(tbMedicoPaciente);
+
+                    // Salve as mudanças no contexto
+                    await _context.SaveChangesAsync();
+
+
+
                     return RedirectToAction(nameof(Index));
                 }
                 ViewData["IdCidade"] = new SelectList(_context.TbCidade, "IdCidade", "IdCidade", tbPaciente.IdCidade);
@@ -80,6 +112,13 @@ namespace Projeto_WEB_2.Controllers
             return View(tbPaciente);
         }
 
+        // Método para obter o Id do profissional com base no userId
+        private int GetProfissionalId(string userId)
+        {
+            var profissional = _context.TbProfissional.FirstOrDefault(p => p.IdUser == userId);
+            return profissional != null ? profissional.IdProfissional : 0;
+        }
+
         // GET: TbPacientes/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -93,13 +132,11 @@ namespace Projeto_WEB_2.Controllers
             {
                 return NotFound();
             }
-            ViewData["IdCidade"] = new SelectList(_context.TbCidade, "IdCidade", "IdCidade", tbPaciente.IdCidade);
+            ViewData["IdCidade"] = new SelectList(_context.TbCidade, "IdCidade", "Nome", tbPaciente.IdCidade);
             return View(tbPaciente);
         }
 
         // POST: TbPacientes/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost, ActionName("Edit")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> EditPost(int? id)

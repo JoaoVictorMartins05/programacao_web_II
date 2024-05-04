@@ -77,6 +77,7 @@ public partial class TbPaciente
 
     [ForeignKey("IdCidade")]
     [InverseProperty("TbPaciente")]
+    [Display(Name ="Cidade")]
     public virtual TbCidade IdCidadeNavigation { get; set; }
 
     [InverseProperty("IdPacienteNavigation")]

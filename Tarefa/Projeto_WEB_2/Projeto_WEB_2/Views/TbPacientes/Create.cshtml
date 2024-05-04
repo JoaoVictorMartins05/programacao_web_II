@@ -1,11 +1,11 @@
 ﻿@model Projeto_WEB_2.Models.TbPaciente
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Criar";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Create</h1>
+<h1>Criar</h1>
 
 <h4>TbPaciente</h4>
 <hr />
@@ -93,14 +93,14 @@
                 <span asp-validation-for="FlgGestante" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Adicionar" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Voltar a lista</a>
 </div>
 
 @section Scripts {

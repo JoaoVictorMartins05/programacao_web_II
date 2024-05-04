@@ -6,12 +6,7 @@
 }
 
 <h1>Profissionais</h1>
-@* @if (User.IsInRole("GerenteGeral,GerenteMedico,GerenteNutricionista"))
-{
-    <p>
-        <a asp-action="Create">Criar Novo</a>
-    </p>
-} *@
+
 <table class="table">
     <thead>
         <tr>
@@ -113,15 +108,15 @@
                     @Html.DisplayFor(modelItem => item.Salario)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.IdProfissional" class="btn btn-primary">Edit</a>
-                    <a asp-action="Details" asp-route-id="@item.IdProfissional" class="btn btn-primary">Details</a>
+                    <a asp-action="Edit" asp-route-id="@item.IdProfissional" class="btn btn-primary">Editar</a>
+                    <a asp-action="Details" asp-route-id="@item.IdProfissional" class="btn btn-primary">Detalhes</a>
                     @{
                         var allowedRoles = new List<string> { "GerenteGeral", "GerenteMedico", "GerenteNutricionista" };
                     }
 
                     @if (allowedRoles.Any(role => User.IsInRole(role)))
                     {
-                        <a asp-action="Delete" asp-route-id="@item.IdProfissional" class="btn btn-primary">Delete</a>
+                        <a asp-action="Delete" asp-route-id="@item.IdProfissional" class="btn btn-primary">Deletar</a>
                     }
                 </td>
             </tr>
