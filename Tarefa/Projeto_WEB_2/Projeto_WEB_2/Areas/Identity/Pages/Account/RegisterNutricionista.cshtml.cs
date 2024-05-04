@@ -125,11 +125,8 @@ namespace Projeto_WEB_2.Areas.Identity.Pages.Account
                 returnUrl ??= Url.Content("~/");
                 ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
 
-                ////////////////////////////////////////////////////////////////////////////////////////
                 ModelState.Remove("Input.tbProfissional.IdUser");
                 ModelState.Remove("Input.tbProfissional.IdContrato");
-                ////////////////////////////////////////////////////////////////////////////////////////
-
 
                 if (ModelState.IsValid)
                 {
@@ -145,7 +142,6 @@ namespace Projeto_WEB_2.Areas.Identity.Pages.Account
 
                         await _userManager.AddToRoleAsync(user, "Nutricionista");
 
-                        ////////////////////////////////////////////////////////////////////////////////////////
                         Input.tbProfissional.IdContratoNavigation.DataInicio = DateTime.UtcNow;
                         Input.tbProfissional.IdContratoNavigation.DataFim = Input.tbProfissional.IdContratoNavigation.DataInicio.Value.AddMonths(1);
                         _context.Add(Input.tbProfissional.IdContratoNavigation);
@@ -156,7 +152,7 @@ namespace Projeto_WEB_2.Areas.Identity.Pages.Account
                         Input.tbProfissional.IdContrato = Input.tbProfissional.IdContratoNavigation.IdContrato;
                         _context.Add(Input.tbProfissional);
                         await _context.SaveChangesAsync();
-                        ////////////////////////////////////////////////////////////////////////////////////////
+                        
 
 
                         var userId = await _userManager.GetUserIdAsync(user);

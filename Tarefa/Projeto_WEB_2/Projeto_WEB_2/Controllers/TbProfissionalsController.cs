@@ -365,7 +365,6 @@ namespace Projeto_WEB_2.Controllers
         [Authorize(Roles = "GerenteGeral,GerenteMedico,GerenteNutricionista")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            //var tbProfissional = await _context.TbProfissional.FindAsync(id);
 
             var tbProfissional = await _context.TbProfissional
             .Include(p => p.TbMedicoPaciente)
