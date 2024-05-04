@@ -275,12 +275,12 @@ namespace Projeto_WEB_2.Controllers
             }
 
             //Validação backend para Médico e Nutricionista não atualizarem o CPF.
-            if (!User.IsInRole("GerenteGeral,GerenteMedico,GerenteNutricionista"))
+            if (User.IsInRole("GerenteGeral") || User.IsInRole("GerenteMedico") || User.IsInRole("GerenteNutricionista"))
             {
                 if (await TryUpdateModelAsync<TbProfissional>(
                      tbProfissional,
                      "",
-                     s => s.IdTipoProfissional, s => s.IdTipoAcesso, s => s.IdCidade, s => s.Nome, s => s.CrmCrn, s => s.Especialidade,
+                     s => s.IdTipoProfissional, s => s.IdTipoAcesso, s => s.Cpf, s => s.IdCidade, s => s.Nome, s => s.CrmCrn, s => s.Especialidade,
                      s => s.Logradouro, s => s.Numero, s => s.Bairro,
                      s => s.Cep, s => s.Ddd1, s => s.Ddd2, s => s.Telefone1
                      , s => s.Telefone2, s => s.Salario, s => s.IdContrato))
@@ -303,7 +303,7 @@ namespace Projeto_WEB_2.Controllers
                 if (await TryUpdateModelAsync<TbProfissional>(
                      tbProfissional,
                      "",
-                     s => s.IdTipoProfissional, s => s.IdTipoAcesso, s => s.Cpf, s => s.IdCidade, s => s.Nome, s => s.CrmCrn, s => s.Especialidade,
+                     s => s.IdTipoProfissional, s => s.IdTipoAcesso, s => s.IdCidade, s => s.Nome, s => s.CrmCrn, s => s.Especialidade,
                      s => s.Logradouro, s => s.Numero, s => s.Bairro,
                      s => s.Cep, s => s.Ddd1, s => s.Ddd2, s => s.Telefone1
                      , s => s.Telefone2, s => s.Salario, s => s.IdContrato))

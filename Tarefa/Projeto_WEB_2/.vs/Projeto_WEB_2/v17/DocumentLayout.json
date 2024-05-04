@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{C0815012-6C64-41C3-91CB-575CC0310D6F}|Projeto_WEB_2\\Projeto_WEB_2.csproj|solutionrelative:projeto_web_2\\controllers\\tbprofissionalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C0815012-6C64-41C3-91CB-575CC0310D6F}|Projeto_WEB_2\\Projeto_WEB_2.csproj|c:\\users\\joaov\\desktop\\p\u00F3s\\programa\u00E7\u00E3o web ii\\tarefa\\projeto_web_2\\projeto_web_2\\views\\tbprofissionals\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0815012-6C64-41C3-91CB-575CC0310D6F}|Projeto_WEB_2\\Projeto_WEB_2.csproj|solutionrelative:projeto_web_2\\views\\tbprofissionals\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C0815012-6C64-41C3-91CB-575CC0310D6F}|Projeto_WEB_2\\Projeto_WEB_2.csproj|c:\\users\\joaov\\desktop\\p\u00F3s\\programa\u00E7\u00E3o web ii\\tarefa\\projeto_web_2\\projeto_web_2\\controllers\\tbpacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0815012-6C64-41C3-91CB-575CC0310D6F}|Projeto_WEB_2\\Projeto_WEB_2.csproj|solutionrelative:projeto_web_2\\controllers\\tbpacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,8 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 353,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa\\Projeto_WEB_2\\Projeto_WEB_2\\Views\\TbProfissionals\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Projeto_WEB_2\\Views\\TbProfissionals\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa\\Projeto_WEB_2\\Projeto_WEB_2\\Views\\TbProfissionals\\Edit.cshtml",
+              "RelativeToolTip": "Projeto_WEB_2\\Views\\TbProfissionals\\Edit.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T19:49:46.518Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -36,14 +53,14 @@
               "RelativeDocumentMoniker": "Projeto_WEB_2\\Controllers\\TbProfissionalsController.cs",
               "ToolTip": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa\\Projeto_WEB_2\\Projeto_WEB_2\\Controllers\\TbProfissionalsController.cs",
               "RelativeToolTip": "Projeto_WEB_2\\Controllers\\TbProfissionalsController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAKYAAAAlAAAA",
+              "ViewState": "AQIAABABAAAAAAAAAAAowCEBAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-04T18:26:56.733Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "RegisterNutricionista.cshtml",
               "DocumentMoniker": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa\\Projeto_WEB_2\\Projeto_WEB_2\\Areas\\Identity\\Pages\\Account\\RegisterNutricionista.cshtml",
               "RelativeDocumentMoniker": "Projeto_WEB_2\\Areas\\Identity\\Pages\\Account\\RegisterNutricionista.cshtml",
@@ -51,12 +68,11 @@
               "RelativeToolTip": "Projeto_WEB_2\\Areas\\Identity\\Pages\\Account\\RegisterNutricionista.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAG4AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-04T18:25:56.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-04T18:25:56.192Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "RegisterMedico.cshtml",
               "DocumentMoniker": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa\\Projeto_WEB_2\\Projeto_WEB_2\\Areas\\Identity\\Pages\\Account\\RegisterMedico.cshtml",
               "RelativeDocumentMoniker": "Projeto_WEB_2\\Areas\\Identity\\Pages\\Account\\RegisterMedico.cshtml",
@@ -64,12 +80,11 @@
               "RelativeToolTip": "Projeto_WEB_2\\Areas\\Identity\\Pages\\Account\\RegisterMedico.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAG8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-04T18:25:53.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-04T18:25:53.333Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TbPacientesController.cs",
               "DocumentMoniker": "C:\\Users\\joaov\\Desktop\\P\u00F3s\\PROGRAMA\u00C7\u00C3O WEB II\\Tarefa\\Projeto_WEB_2\\Projeto_WEB_2\\Controllers\\TbPacientesController.cs",
               "RelativeDocumentMoniker": "Projeto_WEB_2\\Controllers\\TbPacientesController.cs",
@@ -77,8 +92,7 @@
               "RelativeToolTip": "Projeto_WEB_2\\Controllers\\TbPacientesController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T21:42:51.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-03T21:42:51.837Z"
             }
           ]
         }
